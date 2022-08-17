@@ -1,23 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Button from "./components/Button";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to Somemone's personal website!</h1>
+      <p>Personal websites used to be a big thing back in the day, but the advent of websites like Twitter, Tumblr, and other
+        places where people can see your stuff easily has kind of killed their buisness. However, these things are literally 0.99 per year,
+        so I guess I have to have one now.</p>
+
+        <Button />
     </div>
   );
 }
