@@ -1,17 +1,20 @@
 
-import './App.css';
 import Button from "./components/Button";
+import {Container, Row, Col} from "react-bootstrap";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Somemone's personal website!</h1>
-      <p>Personal websites used to be a big thing back in the day, but the advent of websites like Twitter, Tumblr, and other
-        places where people can see your stuff easily has kind of killed their buisness. However, these things are literally 0.99 per year,
-        so I guess I have to have one now.</p>
-
-        <Button />
-    </div>
+    <Container>
+      <Row>
+        <h2>Welcome to Somemone's Website</h2>
+      </Row>
+      <Row>
+        <Col>I'm not really doing anything with this website right now, but soon I will be. I make Minecraft servers, and some other things with less quality. As you can see from this website, graphic design is my passion. Personal websites are cool, they're like 0.99/year, so you should get one too.<br /> <br /> </Col>
+        <Col>
+          In the meantime, you can press this button (which changes colors). <br /> <Button />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
